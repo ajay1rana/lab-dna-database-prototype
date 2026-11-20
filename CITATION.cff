@@ -1,4 +1,32 @@
-An Open-Source Laboratory-Level Forensic DNA Database: Design and Validation of a Prototype
-Ajay Kumar Rana
-Division of Biology and DNA, Central Forensic Science Laboratory Hyderabad, Ministry of Home Affairs, Government of India, Amberpet post, Ramanthapur, Hyderabad, Telangana, India – 500013.
-https://orcid.org/0000-0003-3954-5887
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "An Open-Source Laboratory-Level Forensic DNA Database: Design and Validation of a Prototype"
+version: 1.0.0
+date-released: 2026-11-20
+authors:
+  - family-names: "Rana"
+    given-names: "Ajay Kumar"
+    affiliation: "Division of Biology and DNA, Central Forensic Science Laboratory Hyderabad, Ministry of Home Affairs, Government of India, Hyderabad, Telangana, India"
+    orcid: "https://orcid.org/0000-0003-3954-5887"
+license: MIT
+repository-code: "https://github.com/ajay1rana/lab-dna-database-prototype"
+Keep the spaces exactly as shown (two spaces before - family-names, four before given-names). YAML is strict about indentation.
+If you chose a different licence, change MIT to the right identifier (for example Apache-2.0). For the data licence, the README can explain it separately.
+The quotation marks must be straight quotes ("), not curly ones. If you paste from Word, GitHub may show curly quotes.
+Step 2 – Check that it is valid
+
+After committing, open the repository’s main page. A “Cite this repository” link should appear on the right side. If it does, the file is valid. If it doesn’t, GitHub’s file view shows an error message with the line number.
+
+Step 3 – Delete the failed release and create it again
+
+Zenodo won’t retry the failed one, and your tag v1.0.0 points to the commit with the old file. So:
+
+In GitHub, go to Releases, open the failed release, click the trash/Delete icon and confirm.
+Go to the Tags page and delete v1.0.0.
+Create a new release with tag v1.0.0 (or v1.0.1) targeting main, which now has the fixed file, and use the same title and description. Click Publish release.
+
+Wait a minute or two and refresh the Zenodo GitHub page. The row should change to Succeeded with a DOI badge. Open the record, check the title, author and licence, and copy the version DOI into your manuscript.
+
+If it still fails, open the red row on Zenodo and send me the error text.
+
+How is Claude doing this session?
