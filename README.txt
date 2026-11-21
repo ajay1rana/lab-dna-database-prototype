@@ -1,4 +1,0 @@
-Supplementary S7 - Import layouts and quality-control rules
-Workbook with worked examples of the two supported import layouts (vertical and horizontal), marker header aliases,
-case-field mapping, QC rules, status definitions, category minimum loci, kit rules, location rules and validation tests.
-All entries are fictitious demonstration data; no real person or case data are included.
