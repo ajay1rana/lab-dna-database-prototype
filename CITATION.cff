@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "An Open-Source Laboratory-Level Forensic DNA Database: Design and Validation of a Prototype"
-version: 1.0.0
-date-released: 2026-11-20
+version: 1.0.1
+date-released: 2026-11-21
 authors:
   - family-names: "Rana"
     given-names: "Ajay Kumar"
